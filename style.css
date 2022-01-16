@@ -1,0 +1,34 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.preview{
+    height: 500px;
+    width: 700px;
+    position: relative;
+}
+.content img{
+    height: 500px;
+    width: 700px;
+}
+
+.info{
+    position: absolute;
+    text-align: center;
+    bottom: 10px;
+}
+.thumb{
+    display: flex;
+    flex-direction: column;
+    height: 500px;
+    position: relative;
+}
+.thumb img{
+    height: 100px;  
+}
